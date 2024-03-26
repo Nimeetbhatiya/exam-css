@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.border {
+    border: 1px solid red;
+}
+:root {
+    --gutter--width: 12px;
+    --primary: #3f5651;
+    --black: black;
+    --white: #ffff;
+    --font-family: playfair display;
+}
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-right {
+    align-items: flex-end;
+}
+
+.align-left {
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.height {
+    height: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.float right {
+    float: right;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.text-cente {
+    text-align: center;
+}
+
+.w-1 {
+    width: 8.33%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-2 {
+    width: 16.66%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-3 {
+    width: 25%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-4 {
+    width: 33.33%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-5 {
+    width: 41.66%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-6 {
+    width: 50%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-7 {
+    width: 58.33%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-8 {
+    width: 66.66%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-9 {
+    width: 75%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-10 {
+    width: 83.33%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-11 {
+    width: 91.66%;
+    padding: 0 var(--gutter--width);
+}
+
+.w-12 {
+    width: 100%;
+    padding: 0 var(--gutter--width);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* footer start */
+.fa-arrow-right{
+    margin-right: 10px;
+}
+.foot{
+    background-color: #0c2136;
+}
+.vlog{
+    padding-top: 55px;
+}
+.logo img{
+    height: auto;
+    max-width: 100%;
+}
+.logo p{
+    color:white;
+    line-height:26px;
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+.font i{
+    color:white;
+    padding: 0 10px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.immigration{
+    padding-top: 55px;
+}
+
+.immigration h2{
+    color:white;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.immigration ul{
+    padding:20px;
+}
+.immigration ul li{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.immigration>ul>li:hover{
+    color: rgb(218, 208, 208);
+}
+
+.links{
+    padding-top: 55px;
+    text-align: start;
+}
+.links h2{
+    color:white;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+.links>ul>li:hover{
+    color: rgb(218, 208, 208);
+}
+.links ul{
+    padding:20px;
+}
+.links ul li{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.news{
+    padding-top: 55px;
+}
+.news h3{
+    color:white;
+}
+.news p{
+    color: white;
+    padding-top: 28px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+/* footer end */
+
+/* team card start */
+.team{
+    padding: 25px;
+}
+.ded h3{
+    color:#078586;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ded {
+    position: relative;
+    
+}
+.hr_line_welcome {
+    width: 40px;
+    height: 1.5px;
+    background-color: #07858a;
+    position: absolute;
+    top: 12px;
+    left: 535px;
+}
+.ded h1{
+    padding-top: 10px;
+    font-size:40px;
+    word-spacing: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+}
+
+.white{
+    width: 100%;
+    overflow: hidden;
+}
+.white img{
+    width:100%;
+    transition: all 0.3s linear;
+}
+.white>img:hover{
+    color:whitesmoke;
+    transform: scale(1.1);
+    opacity: 0.8;
+    object-fit: contain;
+
+}
+.bg-co{
+      background-color:#F0F3F9;
+      padding: 30px;
+}
+.direct{
+    padding: 10px 10px;
+}
+.direct h2{
+    font-weight: 500;
+    margin: 0 0 5px;
+    font-size: 25px;
+    font-family:system-ui;
+}
+.direct h4{
+    color:#078586;
+    font-size: 25px;
+    margin: 0 0 10px;
+    
+}
+.blk{
+    height: 1px;
+    width:100%;
+    background-color: rgb(197, 194, 194);
+    margin: 0 0 10px;
+}
+.pa p{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color:#515151;
+}
